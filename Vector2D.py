@@ -46,3 +46,14 @@ class Vector2D ():
 		r = self.__abs__()
 		return Vector2D (self.x/r, self.y/r)
 
+def dot (Vec1, Vec2):
+	return Vec1.dot(Vec2)
+
+def length (Vec):
+	return sqrt(Vec.dot(Vec))
+	
+def cross (Vec1, Vec2):
+	return Vec1.cross(Vec2)
+
+def hat (Vec):
+	return Vec.hat()
