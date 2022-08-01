@@ -1,3 +1,10 @@
+"""
+	Vector2D.py
+	
+	M. Reza Mozaffari
+	Physics Group, University of Qom
+"""
+
 from math import *
 
 class Vector2D ():
