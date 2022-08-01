@@ -1,3 +1,9 @@
+"""
+	main.py
+	
+	M. Reza Mozaffari
+	Physics Group, University of Qom
+"""
 
 from Vector2D import *
 
